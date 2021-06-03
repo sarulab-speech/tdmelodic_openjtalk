@@ -9,14 +9,15 @@ This repository provides an openjtalk-style format of [tdmelodic](https://github
 You can install this dictionary by adding it to the pre-stored dictionaries. 
 
 ### for openjtalk (C++)
-1. Download source codes of open-jtalk from http://open-jtalk.sp.nitech.ac.jp/.
-2. Unzip the downloaded file and move to the directory.
+1. Download `tdmelodic_openjtalk.csv`
+2. Download openjtalk from http://open-jtalk.sp.nitech.ac.jp/.
+3. Unzip the downloaded zip file and move to the directory.
 3. concatenate `tdmelodic_openjtalk.csv` to `mecab-naist-jdic/*.csv`, e.g., 
  ```
  $ cp mecab-naist-jdic/unidic-csj.csv mecab-naist-jdic/unidic-csj_org.csv 
  $ cat tdmelodic_openjtalk.csv mecab-naist-jdic/unidic-csj_org.csv > mecab-naist-jdic/unidic-csj.csv
  ```
-4. Compile the source code.
+4. Compile the source code of openjtalk.
 
 ### for [pyopenjtalk](https://github.com/r9y9/pyopenjtalk) (Python)
  Someone, tell me the way.
