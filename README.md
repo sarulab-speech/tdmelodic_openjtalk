@@ -22,7 +22,7 @@ You can install this dictionary by adding it to the pre-stored dictionaries.
 ### for [pyopenjtalk](https://github.com/r9y9/pyopenjtalk) (Python)
  Someone, tell me the way.
  ```
- > awesode code
+ > awesome code 
  ```
 
 ## Author
