@@ -22,7 +22,17 @@ You can install this dictionary by adding it to the pre-stored dictionaries.
 ### for [pyopenjtalk](https://github.com/r9y9/pyopenjtalk) (Python)
  Someone, tell me the way.
  ```
- > awesome code 
+ # clone pyopenjtalk to your pc
+ $ git clone https://github.com/r9y9/pyopenjtalk.git
+ $ cd pyopenjtalk
+ # clone submodules
+ $ git submodule init
+ $ git submodule update
+ # next append the dic file
+ $ cp lib/open_jtalk/src/mecab-naist-jdic/naist-jdic.csv lib/open_jtalk/src/mecab-naist-jdic/naist-jdic_org.csv
+ $ cat this-repo/tdmelodic_openjtalk.csv lib/open_jtalk/src/mecab-naist-jdic/naist-jdic_org.csv > lib/open_jtalk/src/mecab-naist-jdic/naist-jdic.csv
+ # finally install modified pyopenjtalk
+ $ python setup.py install
  ```
 
 ## Author
